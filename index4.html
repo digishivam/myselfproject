@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <!--FORMS-->
+    <form action="">
+        <label for="Name">Name</label>
+        <input type="text" value="" required><br>
+        <label for="E-mail">E-mail</label>
+        <input type="text" value="" required><br><br><br>
+        
+    <!-- Dropdown list using <select> and <option> -->
+    <label for="country">Choose your country:</label>
+    <select id="country" name="country" required>
+        <option value="">--Select--</option>
+        <option value="india">India</option>
+        <option value="usa">USA</option>
+        <option value="uk">UK</option>
+        <option value="canada">Canada</option>
+    </select>
+    <br><br>
+
+    <!-- Birth date input using <input type="date"> -->
+    <label for="birthdate">Birth Date:</label>
+    <input type="date" id="birthdate" name="birthdate" required>
+    <br><br>
+
+    <form action="/submit_path" method="post">
+    <!-- form fields go here -->
+    <button type="submit">Submit</button>
+            </form>
+</body>
+</html>
